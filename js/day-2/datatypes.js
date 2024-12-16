@@ -5,6 +5,7 @@ var d=new Date();  //Object
 var e;  //undefined
 var n=null; //object
 
+alert(a1)
 // alert(typeof(d))
 alert(typeof(n))
 // alert(typeof(e))
