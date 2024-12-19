@@ -1,4 +1,4 @@
-// var arr=[1,2,3,4];
+var arr=[1,2,3,4];
 var a="Hello World";
 // alert(a.length)  //11
 // alert(a.indexOf('l'))  //2     
@@ -26,4 +26,4 @@ var a="Hello World";
 // alert('hi'+a.trim()+'hi')
 
 
-
+// console.log(arr.join(''))

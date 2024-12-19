@@ -71,17 +71,17 @@
 // a[2]=40;
 // a[2]=50;
 
-var a={
-    name1:"Hari",
-    name1:"Arun",
-    name1:"Ajay",
-}
+// var a={
+//     name1:"Hari",
+//     name1:"Arun",
+//     name1:"Ajay",
+// }
 
-a.name1='Harish';
-a.age=22;
-a['name1']="Siva";
-a['age']=10;
+// a.name1='Harish';
+// a.age=22;
+// a['name1']="Siva";
+// a['age']=10;
 
 
-console.log(a);
+// console.log(a);
 
