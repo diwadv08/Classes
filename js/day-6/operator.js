@@ -50,14 +50,16 @@
 // ternary operator
 // var a='Admin1';
 // (a=='Admin')?location.href='new.html':window.open('error.html');
-// (5==15)?alert('a is equal to 5'):alert('a is not equal to 5');
+(5==15)?alert('a is equal to 5'):alert('a is not equal to 5');
+
+(15==15)?alert('a is equal to 5'):alert('a is not equal to 5');
 
 
 //unary operator
-var a=10;
-// a++   a=a+1
-// ++a   a=a+1
+// var a=10;
+// // a++   a=a+1
+// // ++a   a=a+1
 
-alert(a++ + a++)   //21
-alert(++a + a++)   //26
-alert(a)           //14
+// alert(a++ + a++)   //21
+// alert(++a + a++)   //26
+// alert(a)           //14
