@@ -29,22 +29,29 @@
 
 // document.write(odd+'-odd<br>')
 // document.write(even+'-even')
-var h1=['Hi','hello','Bye','World'];
-var icons=['circle','square','box','users'];
-var p=['Hi-para','hello-para','Bye-para','World'];
-document.write(` <div class="container-fluid bg-success py-5 text-light">
-        <div class="container text-center">
-            <div class="row">`)
-        for(i=0;i<h1.length;i++){
-            document.write(`<div class="col-3">
-                    <h1>${h1[i]}</h1>
-                    <p>${p[i]}</p>
-                    <i class="fa fa-${icons[i]}"></i>
-                </div>`)
-            }
+// var h1=['Hi','hello','Bye','World'];
+// var icons=['circle','square','box','users'];
+// var p=['Hi-para','hello-para','Bye-para','World'];
+// document.write(` <div class="container-fluid bg-success py-5 text-light">
+//         <div class="container text-center">
+//             <div class="row">`)
+//         for(i=0;i<h1.length;i++){
+//             document.write(`<div class="col-3">
+//                     <h1>${h1[i]}</h1>
+//                     <p>${p[i]}</p>
+//                     <i class="fa fa-${icons[i]}"></i>
+//                 </div>`)
+//             }
 
 
-document.write(`
-            </div>
-        </div>
-    </div>`)
+// document.write(`
+//             </div>
+//         </div>
+//     </div>`)
+for(j=1;j<=15;j++){
+    for(i=1;i<=3;i++){
+        document.write(i+"*"+j+"="+(i*j))
+        document.write("<br>")
+    }
+    document.write("<hr>")
+}
