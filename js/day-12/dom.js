@@ -64,3 +64,12 @@
 // var query=document.querySelector(".ww");
 // var query=document.querySelectorAll("h1");
 // console.log(query);
+
+
+var h1=document.createElement("h1");
+var marquee=document.createElement("marquee");
+
+h1.innerHTML="Hello<span style='color:red'>Bye</span>";
+marquee.appendChild(h1)
+// h1.innerText="Hello<span style='color:red'>Bye</span>";
+document.body.appendChild(marquee);
