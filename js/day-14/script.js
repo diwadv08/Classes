@@ -1,4 +1,4 @@
-const a=[10,20,"hjgg",30,90];
+// const a=[10,20,"hjgg",30,90];
 // for(let i=0;i<a.length;i++){
 //     console.log(i);
 // }
@@ -55,7 +55,7 @@ const a=[10,20,"hjgg",30,90];
 // const b=a.reduce((e,i)=>{
 //     return e+i;
 // })
-let b="";
+// let b="";
 
 // a.forEach((e)=>{
 //     b+=e;
@@ -65,14 +65,16 @@ let b="";
 // console.log(b);
 
 
-let sum=[7,2,4,1];
+// let sum=[7,2,4,1];
+
+//     let res=sum.reduce((e,i)=>{
+//         return e+i;
+//     })
+
+//     console.log(res);
 
 
 
-    let res=sum.reduce((e,i)=>{
-        return e+i;
-    })
 
-    console.log(res);
     
 
