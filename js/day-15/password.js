@@ -11,7 +11,7 @@ const Typing=()=>{
             return isFinite(e)
         })
 
-        if(res.length>=1){
+        if(res.length>0){
             error1.style.color="green";
         }
         else{
