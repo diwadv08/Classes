@@ -19,7 +19,7 @@
 // a.map(MyFun)
 
 
-// a.map((e)=>{
+// a.map((e,i,c)=>{
 //     console.log(e);
 // });
 
