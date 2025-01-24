@@ -1,7 +1,5 @@
 let div=document.querySelector("div");
 let input=document.querySelector("input");
-
-
 const table_datas=[
     {
         s_no:"1",
